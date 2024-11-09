@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color:#333;
+}
+.restaurantName{
+  font-size: 1.5rem;
+  color: white;
+}
+.link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.link:hover {
+  background-color: grey;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.logo {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;size: 1.5rem;
+  font-weight: bold; margin-right: 1rem;
+}

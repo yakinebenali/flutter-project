@@ -1,0 +1,181 @@
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+
+  th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* creerProduits.tsx */
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li p {
+    margin: 0;
+  }
+  
+  
+  .form {
+    display: grid;
+    gap: 10px;
+  } 
+  .input-label {
+    text-align: right;
+    padding-right: 10px; /* Ajoutez de l'espace après le titre */
+  }
+  
+  .input,
+  .textarea,
+  .file-input {
+    width: 100%; /* Prend la largeur restante */
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .checkbox-label {
+    margin-left: 5px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* produits */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%; 
+  }
+  .green-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .redCheckbox {
+    background-color: red;
+  }
+                  /* styles/Register.module.css */
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* styles/connexion.module.css */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/*  */
+.logout-button {
+  background-color: green; /* Couleur de fond rouge */
+  color: #FFFFFF; /* Texte blanc */
+  border: none; /* Pas de bordure */
+  padding: 10px 20px; /* Espacement intérieur */
+  cursor: pointer; /* Curseur pointer au survol */
+  border-radius: 5px; /* Coins arrondis */
+  margin-right: 10px; /* Marge à droite pour l'espace entre les boutons */
+}
+
+.cancel-button {
+  background-color: #FF0000; /* Couleur de fond grise */
+  color: #000000; /* Texte noir */
+  border: none; /* Pas de bordure */
+  padding: 10px 20px; /* Espacement intérieur */
+  cursor: pointer; /* Curseur pointer au survol */
+  border-radius: 5px; /* Coins arrondis */
+}
